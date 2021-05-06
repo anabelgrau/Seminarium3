@@ -30,7 +30,11 @@ public final class ItemDTO {
 		this.VAT = VAT;
 		this.quantitySold = quantitySold;
 	}
-
+	/**
+	 *  Represent ItemDTO as a string
+	 *
+	 * @return ItemDTO as a string
+	 */
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();

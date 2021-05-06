@@ -21,7 +21,7 @@ public class Sale {
 	}
 
 	/**
-	 * register all the items for the actual sale.
+	 * Register all the items for the actual sale.
 	 *
 	 * @param foundItem The item that will be registered.
 	 * @return the item has been registered

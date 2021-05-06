@@ -18,7 +18,7 @@ public class ItemList {
 	}
 
 	/**
-	 * save the item in the list.
+	 * Save the item in the list.
 	 *
 	 * @param foundItem The item that was found.
 	 */
@@ -33,6 +33,8 @@ public class ItemList {
 	 * Search for an item in the item list
 	 *
 	 * @param founditem The item that was found in the item list.
+	 * @return <code>true</code> if item founded in the item list,
+	 *         <code>false</code> if they are not.
 	 */
 	public boolean searchItemList(ItemDTO foundItem) {
 		for (ItemListData item : listItems) {

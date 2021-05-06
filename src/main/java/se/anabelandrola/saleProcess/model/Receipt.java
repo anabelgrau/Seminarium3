@@ -61,7 +61,6 @@ public class Receipt {
 		appendLine(builder, format.format(sale.getPayment().getPaidAmount()));
 		builder.append("Change: ");
 
-		// Get only 2 decimal points
 		appendLine(builder, format.format(sale.getPayment().getChange()));
 		endSection(builder);
 

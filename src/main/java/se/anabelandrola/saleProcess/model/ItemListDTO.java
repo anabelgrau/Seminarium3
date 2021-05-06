@@ -32,7 +32,11 @@ public class ItemListDTO {
 		this.totalVAT = totalVAT;
 		this.totalAmountWithVAT = totalAmountWithVAT;
 	}
-
+	/**
+	 *  Represent ItemListDTO as a string
+	 *
+	 * @return ItemListDTO as a string
+	 */
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();

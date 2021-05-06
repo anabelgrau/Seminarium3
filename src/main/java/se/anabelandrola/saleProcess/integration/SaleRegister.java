@@ -38,7 +38,7 @@ public class SaleRegister {
 	}
 
 	/**
-	 * registers a sale and updates AccountingRegistry and Itemregistry
+	 * Registers a sale and updates AccountingRegistry and Itemregistry
 	 * 
 	 * @param sale contains information about the sale
 	 */

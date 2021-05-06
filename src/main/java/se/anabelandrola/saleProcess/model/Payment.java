@@ -29,6 +29,8 @@ public class Payment {
 	}
 
 	/**
+	 * Get the value of totalCost
+	 * 
 	 * @return The total cost of the sale that was paid.
 	 */
 	double getTotalCost() {
@@ -36,6 +38,8 @@ public class Payment {
 	}
 
 	/**
+	 * Get the value of paidAmount
+	 * 
 	 * @return The amount paid.
 	 */
 	double getPaidAmount() {
@@ -43,11 +47,13 @@ public class Payment {
 	}
 
 	/**
+	 * Get the value of the change
+	 * 
 	 * @return The amount of change the customer shall have.
 	 */
 	double getChange() {
 		double change = 0;
-		if (paidAmount > 0) {
+		if (paidAmount >= totalCost) {
 			change = paidAmount - totalCost;
 		}
 		return change;
